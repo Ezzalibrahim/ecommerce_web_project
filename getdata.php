@@ -17,5 +17,5 @@ while ($row = $stetm->fetch(PDO::FETCH_ASSOC)) {
         "total_commande" => $total_commande['total_commande'],
     ];
 }
-
+// Send data as Json format
 echo json_encode($data);
