@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Mono&family=Montserrat+Subrayada&display=swap');
+
+
+/*         NavBar       */
+.swiper-container {
+    height: 95vh;
+}
+
+.brand-name {
+    font: 'Montserrat Subrayada', sans-serif;
+}
+
+.wallet {
+    width: 34px;
+    margin-right: 12px;
+    margin-top: 8px;
+    /* height: 20px; */
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+
+}
+
+.search {
+    margin-right: 16%;
+}
+
+/*
+.sign li {
+    padding-right: 10px;
+
+} */
+
+.slider_contante {
+
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+.line {
+    height: 4px;
+    width: 6%;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    margin: auto;
+    margin-top: 1.5%;
+    margin-bottom: 30px;
+    position: relative;
+    top: -25px;
+}
+
+
+/* Section Category */
+
+.shop_by_category,
+.shop_by_popular {
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.shop_by_category h2,
+.shop_by_popular h2 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.category-image img {
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+
+}
+
+.category_images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 32%));
+    justify-content: center;
+
+}
+
+.category-wrap h3 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 20px;
+}
+
+.category-btn-wrap {
+    font-family: 'DM mono', monospace;
+    border: 1px solid #3d5265;
+    border-radius: 2px;
+    background-color: #fafafa;
+    height: 11%;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    padding-top: 2px;
+    background-color: #3d5265;
+
+
+}
+
+.category-btn-wrap a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.category-btn-wrap a:hover {
+    color: #fff;
+}
+
+
+
+.shop_by_category .card:hover {
+    transform: scale(1.08);
+}
+
+.text-center {
+    text-align: center !important
+}
+
+/* Section Popular Products  */
+
+.product-top {
+    height: 100%;
+}
+
+
+.overlay-right {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    width: 70px;
+}
+
+.overlay-right .fas {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.overlay-right .btn-secondary {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.product-top:hover .overlay-right {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.add_to_cart {
+    width: 36px;
+    height: 34px;
+}
+
+span.item_counter {
+    padding: 1px 4px;
+    position: relative;
+    right: 46px;
+    font-size: 16px;
+    border-radius: 35%;
+    bottom: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Features */
+.features-section {
+    margin: 60px 0px;
+}
+
+.features-box img {
+    width: 20%;
+}
+
+.features-text {
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+/* Section Footer */
+.footer {
+    margin-top: 50px;
+    background-color: #3d5265;
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+
+
+.newsletter {
+    margin-top: 1px;
+}
+
+.newsletter input[type="text"] {
+    width: 60%;
+    border: 0;
+    padding-left: 10px;
+    border-radius: 4px;
+    height: 35px;
+    margin-top: 10px;
+
+}
+
+.newsletter input[type="button"] {
+    width: 40%;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    color: #fff;
+    background: #e8491d;
+    border: 0;
+    margin-top: 20px;
+    font-weight: bolder;
+    box-shadow: 1px 0px 10px 1px #e8491d;
+}
+
+.newsletter input[type="button"]:hover {
+
+    background: #fff;
+    color: #e8491d;
+}
+
+.bottom-footer {
+    padding-bottom: 15px;
+}
+
+.categorie-title h3 {
+    font-family: 'Acme', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}

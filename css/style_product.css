@@ -1,0 +1,42 @@
+.product_img,
+.description {
+    margin-top: 30px;
+    /* width: 40vh; */
+    /* height: 60vh; */
+}
+
+/* #image_product {
+     background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%;
+} */
+
+.product_price,
+.product_brand,
+.stock {
+    width: 40%;
+    height: 6%;
+}
+
+.product_price label,
+.stock label {
+    width: 60%;
+}
+
+.product_brand {
+    display: inline;
+}
+
+.related-product {
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    /* margin-top: 30px; */
+    text-align: center;
+
+}
+
+.related-product h2 {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}

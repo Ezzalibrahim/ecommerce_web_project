@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+}
+
+.line-buttom {
+    border-bottom: 2px solid #eeeeee;
+
+}
+
+.wrapper .wrapper-filter {
+    padding-top: 30px;
+    flex: 2;
+    background-color: #ffffff;
+    /* width: 100%; */
+}
+
+.wrapper .wrapper-product {
+    flex: 8;
+    background-color: #ffffff;
+}
+
+.change {
+
+    display: none;
+}
